@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DeberS1RG.Calificaciones"
+                BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <StackLayout>
+                <Label x:Name="lblUsuario" Text="gg" FontSize="15" HorizontalTextAlignment="End"/>
+
+                <Frame BackgroundColor="#534E4D" Padding="5" CornerRadius="0">
+                <Label Text="Calificación Momento 1" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+            </Frame>
+                
+                
+                
+            <!--<Entry x:name="txtNombre" Placeholder="Ingrese su nombre"/>
+            <Entry x:Name="txtApellido"  Placeholder="Ingrese su apeliido"/>-->
+            <Entry x:Name="txtNotaSM1" Placeholder="Seguimiento M1" Keyboard="Numeric" TextChanged="txtNotaSM1_TextChanged"/>
+            <Entry x:Name="txtNotaEM1" Placeholder="Examen M1" Keyboard="Numeric" TextChanged="txtNotaEM1_TextChanged"/>
+            <Entry x:Name="txtResultadoM1" Placeholder="Calificacion Momento 1"/>
+
+            <Label />
+            <Frame BackgroundColor="#534E4D" Padding="5" CornerRadius="0">
+                <Label Text="Calificación Momento 2" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+            </Frame>
+            
+            <Entry x:Name="txtNotaSM2" Placeholder="Seguimiento M2" Keyboard="Numeric" TextChanged="txtNotaSM2_TextChanged"/>
+            <Entry x:Name="txtNotaEM2" Placeholder="Examen M2" Keyboard="Numeric" TextChanged="txtNotaEM2_TextChanged"/>
+            <Entry x:Name="txtResultadoM2" Placeholder="Calificacion Momento 2"/>
+
+            <Label />
+            <Entry x:Name="txtResultadoFinal" Placeholder="Calificacion Final"/>
+
+
+
+
+
+
+            <Button x:Name="btnParcial1"
+                VerticalOptions="Center"
+                    FontAttributes="None"
+                    Text="Calcular"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    BorderColor="#1A5276"
+                    BorderWidth="1.5"
+                    CornerRadius="5" 
+                     Clicked="btnParcial1_Clicked">
+
+            </Button>
+
+        </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
