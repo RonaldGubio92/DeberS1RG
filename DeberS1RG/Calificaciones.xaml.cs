@@ -16,7 +16,8 @@ namespace DeberS1RG
         {
             InitializeComponent();
 
-            lblUsuario.Text = "Usuario conectado es:" + usuario+ "contrasenia:"+ contrasena;
+            lblUsuario.Text = "Usuario conectado es:" + usuario;
+            lblClave.Text = "" + contrasena;
 
 
         }
@@ -141,6 +142,12 @@ namespace DeberS1RG
                     ent.Text = String.Empty;
                 }
             }
+        }
+
+        private  void btnMenu_Clicked(object sender, EventArgs e)
+        {
+           
+
         }
     }
 }

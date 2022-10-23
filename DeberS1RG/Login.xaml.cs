@@ -25,8 +25,8 @@ namespace DeberS1RG
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            string usuario = "rgubio";
-            string clave = "rgubio";
+            string usuario = "estudiante2022";
+            string clave = "esuisrael2022";
 
             string tUsuario = txtUsuario.Text;
             string tContrasenia = txtClave.Text;
